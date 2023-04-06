@@ -1,0 +1,23 @@
+@import '../colors.css';
+header {
+	grid-column: 1/-1;
+	grid-row: 1/2;
+	display: flex;
+	background-color: var(--light-teal);
+}
+.header-container {
+	margin-left: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.header-logo {
+	height: 3.5rem;
+	width: 3.5rem;
+	color: white;
+}
+.header-text {
+	font-weight: 600;
+	font-size: 2em;
+}

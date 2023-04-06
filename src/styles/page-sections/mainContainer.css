@@ -1,0 +1,7 @@
+@import '../colors.css';
+main {
+	grid-column: 2/-1;
+	grid-row: 2/3;
+	display: flex;
+	background-color: var(--light-grey);
+}

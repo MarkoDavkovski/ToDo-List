@@ -1,0 +1,24 @@
+@import '../colors.css';
+footer {
+	grid-column: 1/-1;
+	grid-row: 3/-1;
+	border-top: 2px solid var(--dark-teal);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3em;
+	background-color: var(--light-teal);
+	color: var(--dark-color);
+	letter-spacing: -1px;
+	font-weight: 400;
+}
+.gh-link {
+	color: var(--dark-color);
+}
+.fab {
+	transition: transform 0.3s ease-in-out;
+}
+.fab:hover {
+	transform: scale(1.2) rotate(360deg);
+	color: var(--dark-teal);
+}

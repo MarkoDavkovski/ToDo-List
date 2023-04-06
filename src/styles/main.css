@@ -1,0 +1,6 @@
+@import './reset.css';
+@import './content.css';
+@import './page-sections/header.css';
+@import './page-sections/mainContainer.css';
+@import './page-sections/sidebar.css';
+@import './page-sections/footer.css';
