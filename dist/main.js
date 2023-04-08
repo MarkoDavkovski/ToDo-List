@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n\t--light-grey: #d8dfe2;\n\t--darker-light-grey: #b2b2b2;\n\t--light-teal: #71adb5;\n\t--dark-teal: #176d81;\n\t--dark-color: #0d3446;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/colors.css"],"names":[],"mappings":"AAAA;CACC,qBAAqB;CACrB,4BAA4B;CAC5B,qBAAqB;CACrB,oBAAoB;CACpB,qBAAqB;AACtB","sourcesContent":["* {\n\t--light-grey: #d8dfe2;\n\t--darker-light-grey: #b2b2b2;\n\t--light-teal: #71adb5;\n\t--dark-teal: #176d81;\n\t--dark-color: #0d3446;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n\t--light-grey: #d8dfe2;\n\t--darker-light-grey: #c7c7c7;\n\t--light-teal: #71adb5;\n\t--dark-teal: #176d81;\n\t--dark-color: #0d3446;\n\t--light-green: #b5f1cc;\n\t--light-red: #fa9884;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/colors.css"],"names":[],"mappings":"AAAA;CACC,qBAAqB;CACrB,4BAA4B;CAC5B,qBAAqB;CACrB,oBAAoB;CACpB,qBAAqB;CACrB,sBAAsB;CACtB,oBAAoB;AACrB","sourcesContent":["* {\n\t--light-grey: #d8dfe2;\n\t--darker-light-grey: #c7c7c7;\n\t--light-teal: #71adb5;\n\t--dark-teal: #176d81;\n\t--dark-color: #0d3446;\n\t--light-green: #b5f1cc;\n\t--light-red: #fa9884;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n\tfont-family: 'Montserrat', sans-serif;\n}\n#content {\n\tposition: relative;\n\tmin-height: 100vh;\n\tmin-width: 100vw;\n\tdisplay: grid;\n\tgrid-template-columns: 1.5fr 4fr;\n\tgrid-template-rows: 0.8fr 4fr 0.2fr;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/content.css"],"names":[],"mappings":"AACA;CACC,qCAAqC;AACtC;AACA;CACC,kBAAkB;CAClB,iBAAiB;CACjB,gBAAgB;CAChB,aAAa;CACb,gCAAgC;CAChC,mCAAmC;AACpC","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;900&display=swap');\nbody {\n\tfont-family: 'Montserrat', sans-serif;\n}\n#content {\n\tposition: relative;\n\tmin-height: 100vh;\n\tmin-width: 100vw;\n\tdisplay: grid;\n\tgrid-template-columns: 1.5fr 4fr;\n\tgrid-template-rows: 0.8fr 4fr 0.2fr;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n\tfont-family: 'Montserrat', sans-serif;\n}\n#content {\n\tposition: relative;\n\tmin-height: 100vh;\n\tmin-width: 100vw;\n\tdisplay: grid;\n\tgrid-template-columns: 1.5fr 4fr;\n\tgrid-template-rows: 0.5fr 4fr 0.2fr;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/content.css"],"names":[],"mappings":"AACA;CACC,qCAAqC;AACtC;AACA;CACC,kBAAkB;CAClB,iBAAiB;CACjB,gBAAgB;CAChB,aAAa;CACb,gCAAgC;CAChC,mCAAmC;AACpC","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;900&display=swap');\nbody {\n\tfont-family: 'Montserrat', sans-serif;\n}\n#content {\n\tposition: relative;\n\tmin-height: 100vh;\n\tmin-width: 100vw;\n\tdisplay: grid;\n\tgrid-template-columns: 1.5fr 4fr;\n\tgrid-template-rows: 0.5fr 4fr 0.2fr;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_colors_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "header {\n\tgrid-column: 1/-1;\n\tgrid-row: 1/2;\n\tdisplay: flex;\n\tbackground-color: var(--light-teal);\n}\n.header-logo {\n\theight: 100px;\n\twidth: 100px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/page-sections/header.css"],"names":[],"mappings":"AACA;CACC,iBAAiB;CACjB,aAAa;CACb,aAAa;CACb,mCAAmC;AACpC;AACA;CACC,aAAa;CACb,YAAY;AACb","sourcesContent":["@import '../colors.css';\nheader {\n\tgrid-column: 1/-1;\n\tgrid-row: 1/2;\n\tdisplay: flex;\n\tbackground-color: var(--light-teal);\n}\n.header-logo {\n\theight: 100px;\n\twidth: 100px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "header {\n\tgrid-column: 1/-1;\n\tgrid-row: 1/2;\n\tdisplay: flex;\n\tbackground-color: var(--light-teal);\n}\n.header-container {\n\tmargin-left: 1em;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tgap: 10px;\n}\n.header-logo {\n\theight: 3.5rem;\n\twidth: 3.5rem;\n\tcolor: white;\n}\n.header-text {\n\tfont-weight: 600;\n\tfont-size: 2em;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/page-sections/header.css"],"names":[],"mappings":"AACA;CACC,iBAAiB;CACjB,aAAa;CACb,aAAa;CACb,mCAAmC;AACpC;AACA;CACC,gBAAgB;CAChB,aAAa;CACb,uBAAuB;CACvB,mBAAmB;CACnB,SAAS;AACV;AACA;CACC,cAAc;CACd,aAAa;CACb,YAAY;AACb;AACA;CACC,gBAAgB;CAChB,cAAc;AACf","sourcesContent":["@import '../colors.css';\nheader {\n\tgrid-column: 1/-1;\n\tgrid-row: 1/2;\n\tdisplay: flex;\n\tbackground-color: var(--light-teal);\n}\n.header-container {\n\tmargin-left: 1em;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tgap: 10px;\n}\n.header-logo {\n\theight: 3.5rem;\n\twidth: 3.5rem;\n\tcolor: white;\n}\n.header-text {\n\tfont-weight: 600;\n\tfont-size: 2em;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -179,7 +179,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_colors_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "main {\n\tgrid-column: 2/-1;\n\tgrid-row: 2/3;\n\tdisplay: flex;\n\tbackground-color: var(--light-grey);\n}\n", "",{"version":3,"sources":["webpack://./src/styles/page-sections/mainContainer.css"],"names":[],"mappings":"AACA;CACC,iBAAiB;CACjB,aAAa;CACb,aAAa;CACb,mCAAmC;AACpC","sourcesContent":["@import '../colors.css';\nmain {\n\tgrid-column: 2/-1;\n\tgrid-row: 2/3;\n\tdisplay: flex;\n\tbackground-color: var(--light-grey);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "main {\n\tgrid-column: 2/-1;\n\tgrid-row: 2/3;\n\tdisplay: flex;\n\tflex-direction: column;\n\tbackground-color: var(--light-grey);\n\tcolor: var(--dark-color);\n}\n.main-header {\n\tfont-size: 2rem;\n\tpadding: 2%;\n\tfont-weight: 600;\n}\n.task-container {\n\tmargin: 2%;\n}\n.add-task-btn {\n\tbackground-color: var(--light-grey);\n\tborder: 1px solid white;\n\tborder-radius: 5px;\n\tfont-size: 1.1rem;\n\twidth: 100%;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tgap: 10px;\n\ttransition: transform 0.3s ease-in-out;\n}\n.add-task-btn:hover {\n\tcursor: pointer;\n\tbackground-color: var(--light-teal);\n}\n", "",{"version":3,"sources":["webpack://./src/styles/page-sections/mainContainer.css"],"names":[],"mappings":"AACA;CACC,iBAAiB;CACjB,aAAa;CACb,aAAa;CACb,sBAAsB;CACtB,mCAAmC;CACnC,wBAAwB;AACzB;AACA;CACC,eAAe;CACf,WAAW;CACX,gBAAgB;AACjB;AACA;CACC,UAAU;AACX;AACA;CACC,mCAAmC;CACnC,uBAAuB;CACvB,kBAAkB;CAClB,iBAAiB;CACjB,WAAW;CACX,aAAa;CACb,uBAAuB;CACvB,mBAAmB;CACnB,SAAS;CACT,sCAAsC;AACvC;AACA;CACC,eAAe;CACf,mCAAmC;AACpC","sourcesContent":["@import '../colors.css';\nmain {\n\tgrid-column: 2/-1;\n\tgrid-row: 2/3;\n\tdisplay: flex;\n\tflex-direction: column;\n\tbackground-color: var(--light-grey);\n\tcolor: var(--dark-color);\n}\n.main-header {\n\tfont-size: 2rem;\n\tpadding: 2%;\n\tfont-weight: 600;\n}\n.task-container {\n\tmargin: 2%;\n}\n.add-task-btn {\n\tbackground-color: var(--light-grey);\n\tborder: 1px solid white;\n\tborder-radius: 5px;\n\tfont-size: 1.1rem;\n\twidth: 100%;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tgap: 10px;\n\ttransition: transform 0.3s ease-in-out;\n}\n.add-task-btn:hover {\n\tcursor: pointer;\n\tbackground-color: var(--light-teal);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -208,7 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_colors_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "aside {\n\tz-index: 1;\n\tposition: relative;\n\tgrid-column: 1/2;\n\tgrid-row: 2/3;\n\tbackground-color: var(--darker-light-grey);\n}\n", "",{"version":3,"sources":["webpack://./src/styles/page-sections/sidebar.css"],"names":[],"mappings":"AACA;CACC,UAAU;CACV,kBAAkB;CAClB,gBAAgB;CAChB,aAAa;CACb,0CAA0C;AAC3C","sourcesContent":["@import '../colors.css';\naside {\n\tz-index: 1;\n\tposition: relative;\n\tgrid-column: 1/2;\n\tgrid-row: 2/3;\n\tbackground-color: var(--darker-light-grey);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "aside {\n\tz-index: 1;\n\tposition: relative;\n\tgrid-column: 1/2;\n\tgrid-row: 2/3;\n\tbackground-color: var(--darker-light-grey);\n}\n.sidebar-container {\n\tdisplay: flex;\n\tflex-direction: column;\n\tgap: 1rem;\n\tmargin-top: 20px;\n}\n.task-btn,\n.add-project-btn {\n\tbackground-color: var(--darker-light-grey);\n\tfont-size: 1.2rem;\n\tfont-weight: 400;\n\tcolor: var(--dark-color);\n\tborder: 0px solid white;\n\tmargin-left: 10%;\n\tmargin-right: 10%;\n\tborder-radius: 5px;\n\tdisplay: flex;\n\tjustify-content: start;\n\talign-items: center;\n\tgap: 0.5rem;\n\tpadding: 5px 10px;\n}\n.task-btn:hover,\n.add-project-btn:hover {\n\tcursor: pointer;\n\tbackground-color: var(--light-grey);\n}\n\n.projects-header {\n\tfont-size: 1.8rem;\n\tfont-weight: 600;\n\tcolor: var(--dark-color);\n\tmargin-left: 10%;\n\tpadding-bottom: 10px;\n}\n.projects-container {\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: start;\n}\n\n.add-project-form {\n\t/* display: flex; */\n\tdisplay: none;\n\tflex-direction: column;\n}\n.input-label-container {\n\tdisplay: flex;\n\tgap: 1rem;\n\tjustify-content: center;\n\twidth: 80%;\n\tmargin: auto;\n}\n.project-btn-container {\n\tdisplay: flex;\n\tgap: 1rem;\n\tjustify-content: center;\n\tmargin: auto;\n\twidth: 80%;\n}\n.cancel-btn,\n.add-btn {\n\t/* width: 6rem; */\n\tbackground-color: var(--darker-light-grey);\n\tborder: 1px solid white;\n\tborder-radius: 5px;\n\ttransition: transform 0.3s ease-in-out;\n\tpadding: 3px 10px;\n\tfont-weight: 600;\n}\n.cancel-btn:hover,\n.add-btn:hover {\n\ttransform: scale(1.2);\n\tcursor: pointer;\n}\n.cancel-btn {\n\tbackground-color: var(--light-red);\n}\n.add-btn {\n\tbackground-color: var(--light-green);\n}\n", "",{"version":3,"sources":["webpack://./src/styles/page-sections/sidebar.css"],"names":[],"mappings":"AACA;CACC,UAAU;CACV,kBAAkB;CAClB,gBAAgB;CAChB,aAAa;CACb,0CAA0C;AAC3C;AACA;CACC,aAAa;CACb,sBAAsB;CACtB,SAAS;CACT,gBAAgB;AACjB;AACA;;CAEC,0CAA0C;CAC1C,iBAAiB;CACjB,gBAAgB;CAChB,wBAAwB;CACxB,uBAAuB;CACvB,gBAAgB;CAChB,iBAAiB;CACjB,kBAAkB;CAClB,aAAa;CACb,sBAAsB;CACtB,mBAAmB;CACnB,WAAW;CACX,iBAAiB;AAClB;AACA;;CAEC,eAAe;CACf,mCAAmC;AACpC;;AAEA;CACC,iBAAiB;CACjB,gBAAgB;CAChB,wBAAwB;CACxB,gBAAgB;CAChB,oBAAoB;AACrB;AACA;CACC,aAAa;CACb,sBAAsB;CACtB,sBAAsB;AACvB;;AAEA;CACC,mBAAmB;CACnB,aAAa;CACb,sBAAsB;AACvB;AACA;CACC,aAAa;CACb,SAAS;CACT,uBAAuB;CACvB,UAAU;CACV,YAAY;AACb;AACA;CACC,aAAa;CACb,SAAS;CACT,uBAAuB;CACvB,YAAY;CACZ,UAAU;AACX;AACA;;CAEC,iBAAiB;CACjB,0CAA0C;CAC1C,uBAAuB;CACvB,kBAAkB;CAClB,sCAAsC;CACtC,iBAAiB;CACjB,gBAAgB;AACjB;AACA;;CAEC,qBAAqB;CACrB,eAAe;AAChB;AACA;CACC,kCAAkC;AACnC;AACA;CACC,oCAAoC;AACrC","sourcesContent":["@import '../colors.css';\naside {\n\tz-index: 1;\n\tposition: relative;\n\tgrid-column: 1/2;\n\tgrid-row: 2/3;\n\tbackground-color: var(--darker-light-grey);\n}\n.sidebar-container {\n\tdisplay: flex;\n\tflex-direction: column;\n\tgap: 1rem;\n\tmargin-top: 20px;\n}\n.task-btn,\n.add-project-btn {\n\tbackground-color: var(--darker-light-grey);\n\tfont-size: 1.2rem;\n\tfont-weight: 400;\n\tcolor: var(--dark-color);\n\tborder: 0px solid white;\n\tmargin-left: 10%;\n\tmargin-right: 10%;\n\tborder-radius: 5px;\n\tdisplay: flex;\n\tjustify-content: start;\n\talign-items: center;\n\tgap: 0.5rem;\n\tpadding: 5px 10px;\n}\n.task-btn:hover,\n.add-project-btn:hover {\n\tcursor: pointer;\n\tbackground-color: var(--light-grey);\n}\n\n.projects-header {\n\tfont-size: 1.8rem;\n\tfont-weight: 600;\n\tcolor: var(--dark-color);\n\tmargin-left: 10%;\n\tpadding-bottom: 10px;\n}\n.projects-container {\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: start;\n}\n\n.add-project-form {\n\t/* display: flex; */\n\tdisplay: none;\n\tflex-direction: column;\n}\n.input-label-container {\n\tdisplay: flex;\n\tgap: 1rem;\n\tjustify-content: center;\n\twidth: 80%;\n\tmargin: auto;\n}\n.project-btn-container {\n\tdisplay: flex;\n\tgap: 1rem;\n\tjustify-content: center;\n\tmargin: auto;\n\twidth: 80%;\n}\n.cancel-btn,\n.add-btn {\n\t/* width: 6rem; */\n\tbackground-color: var(--darker-light-grey);\n\tborder: 1px solid white;\n\tborder-radius: 5px;\n\ttransition: transform 0.3s ease-in-out;\n\tpadding: 3px 10px;\n\tfont-weight: 600;\n}\n.cancel-btn:hover,\n.add-btn:hover {\n\ttransform: scale(1.2);\n\tcursor: pointer;\n}\n.cancel-btn {\n\tbackground-color: var(--light-red);\n}\n.add-btn {\n\tbackground-color: var(--light-green);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -357,6 +357,20 @@ module.exports = function (item) {
   }
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ "./src/assets/check.png":
+/*!******************************!*\
+  !*** ./src/assets/check.png ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/check.png");
 
 /***/ }),
 
@@ -691,6 +705,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "dom": () => (/* binding */ dom)
 /* harmony export */ });
+/* harmony import */ var _assets_check_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/check.png */ "./src/assets/check.png");
+
 function dom() {
 	//Select the page content elements
 	const content = document.querySelector('#content');
@@ -703,17 +719,131 @@ function dom() {
 	const headerContainer = document.createElement('div');
 	headerContainer.className = 'header-container';
 	const logo = document.createElement('img');
-	logo.src = '/src/logo.png';
+	logo.src = _assets_check_png__WEBPACK_IMPORTED_MODULE_0__["default"];
+	logo.alt = 'logo';
 	logo.className = 'header-logo';
 	const headerText = document.createElement('p');
 	headerText.className = 'header-text';
 	headerText.innerHTML = 'ToDo';
-	headerContainer.appendChild(logo);
+
+	//Append everything to the header element
 	headerContainer.appendChild(headerText);
+	headerContainer.appendChild(logo);
 	header.appendChild(headerContainer);
+
 	//Create sidebar
+	const sidebarContainer = document.createElement('div');
+	sidebarContainer.className = 'sidebar-container';
+
+	const allTasks = document.createElement('button');
+	const allTasksIcon = document.createElement('i');
+	allTasksIcon.className = 'fa-solid fa-list-check sidebar-icon';
+	allTasks.href = '/';
+	allTasks.className = 'task-btn';
+	allTasks.appendChild(allTasksIcon);
+	allTasks.appendChild(document.createTextNode('All tasks'));
+
+	const todayTasks = document.createElement('button');
+	const todayTasksIcon = document.createElement('i');
+	todayTasksIcon.className = 'fa-solid fa-calendar-day sidebar-icon';
+	todayTasks.href = '/';
+	todayTasks.className = 'task-btn';
+	todayTasks.appendChild(todayTasksIcon);
+	todayTasks.appendChild(document.createTextNode('Today'));
+
+	const weekTasks = document.createElement('button');
+	const weekTasksIcon = document.createElement('i');
+	weekTasksIcon.className = 'fa-solid fa-calendar-week sidebar-icon';
+	weekTasks.href = '/';
+	weekTasks.className = 'task-btn';
+	weekTasks.appendChild(weekTasksIcon);
+	weekTasks.appendChild(document.createTextNode('This week'));
+
+	const projects = document.createElement('h2');
+	const projectsContainer = document.createElement('div');
+	const addProject = document.createElement('button');
+	const addProjectIcon = document.createElement('i');
+
+	projects.className = 'projects-header';
+	projectsContainer.className = 'projects-container';
+	addProject.className = 'add-project-btn';
+	addProjectIcon.className = 'fa-solid fa-plus';
+	projects.innerHTML = 'Projects';
+
+	//Create add project form
+	const addProjectForm = document.createElement('form');
+	addProjectForm.className = 'add-project-form';
+
+	const addProjectLabel = document.createElement('label');
+	addProjectLabel.textContent = 'Input';
+	addProjectLabel.setAttribute('for', 'input-field');
+
+	const addProjectInput = document.createElement('input');
+	addProjectInput.setAttribute('type', 'text');
+	addProjectInput.setAttribute('id', 'input-field');
+	addProjectInput.setAttribute('name', 'input-field');
+
+	const inputLabelContainer = document.createElement('div');
+	inputLabelContainer.className = 'input-label-container';
+	inputLabelContainer.appendChild(addProjectLabel);
+	inputLabelContainer.appendChild(addProjectInput);
+
+	const cancelButton = document.createElement('button');
+	cancelButton.textContent = 'Cancel';
+	cancelButton.setAttribute('type', 'button');
+	cancelButton.className = 'cancel-btn';
+	cancelButton.addEventListener('click', () => {});
+
+	const addButton = document.createElement('button');
+	addButton.textContent = 'Add Project';
+	addButton.setAttribute('type', 'button');
+	addButton.className = 'add-btn';
+	addButton.addEventListener('click', () => {});
+
+	const projectFormBtnContainer = document.createElement('div');
+	projectFormBtnContainer.className = 'project-btn-container';
+
+	projectFormBtnContainer.appendChild(cancelButton);
+	projectFormBtnContainer.appendChild(addButton);
+
+	addProjectForm.appendChild(inputLabelContainer);
+	addProjectForm.appendChild(document.createElement('br'));
+	addProjectForm.appendChild(projectFormBtnContainer);
+
+	//Append elements to the ProjectsContainer
+	addProject.appendChild(addProjectIcon);
+	addProject.appendChild(document.createTextNode('Add project'));
+	projectsContainer.appendChild(addProjectForm);
+	projectsContainer.appendChild(addProject);
+
+	//Append everything to the aside element
+	sidebarContainer.appendChild(allTasks);
+	sidebarContainer.appendChild(todayTasks);
+	sidebarContainer.appendChild(weekTasks);
+	sidebarContainer.appendChild(projects);
+	sidebarContainer.appendChild(projectsContainer);
+	aside.appendChild(sidebarContainer);
 
 	//Create main container
+	const mainHeader = document.createElement('h1');
+	mainHeader.className = 'main-header';
+	mainHeader.innerHTML = 'All Tasks';
+
+	const tasksContainer = document.createElement('div');
+	tasksContainer.className = 'task-container';
+
+	const addTaskBtn = document.createElement('button');
+	addTaskBtn.className = 'add-task-btn';
+	const addTaskIcon = document.createElement('i');
+	addTaskIcon.className = 'fa-solid fa-plus';
+
+	addTaskBtn.appendChild(addTaskIcon);
+	addTaskBtn.appendChild(document.createTextNode('Create Task'));
+	tasksContainer.appendChild(addTaskBtn);
+
+	//Append elements to main container
+	mainContainer.appendChild(mainHeader);
+	mainContainer.appendChild(tasksContainer);
 
 	//Create footer
 	const copyrightSpan = document.createElement('span');
@@ -791,6 +921,18 @@ function dom() {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -805,6 +947,26 @@ function dom() {
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

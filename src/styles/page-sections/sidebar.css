@@ -46,3 +46,44 @@ aside {
 	flex-direction: column;
 	justify-content: start;
 }
+
+.add-project-form {
+	/* display: flex; */
+	display: none;
+	flex-direction: column;
+}
+.input-label-container {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+}
+.project-btn-container {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin: auto;
+	width: 80%;
+}
+.cancel-btn,
+.add-btn {
+	/* width: 6rem; */
+	background-color: var(--darker-light-grey);
+	border: 1px solid white;
+	border-radius: 5px;
+	transition: transform 0.3s ease-in-out;
+	padding: 3px 10px;
+	font-weight: 600;
+}
+.cancel-btn:hover,
+.add-btn:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.cancel-btn {
+	background-color: var(--light-red);
+}
+.add-btn {
+	background-color: var(--light-green);
+}

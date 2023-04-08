@@ -1,7 +1,11 @@
 * {
 	--light-grey: #d8dfe2;
-	--darker-light-grey: #b2b2b2;
+	--darker-light-grey: #c7c7c7;
 	--light-teal: #71adb5;
 	--dark-teal: #176d81;
 	--dark-color: #0d3446;
+	--light-green: #b5f1cc;
+	--light-red: #fa9884;
+	--dark-green: #609966;
+	--dark-red: #e74646;
 }
