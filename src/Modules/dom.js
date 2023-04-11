@@ -67,13 +67,13 @@ export function dom() {
 	addProjectForm.className = 'add-project-form';
 
 	const addProjectLabel = document.createElement('label');
-	addProjectLabel.textContent = 'Input';
-	addProjectLabel.setAttribute('for', 'input-field');
+	addProjectLabel.textContent = 'Project Name';
+	addProjectLabel.setAttribute('for', 'project-name');
 
 	const addProjectInput = document.createElement('input');
 	addProjectInput.setAttribute('type', 'text');
-	addProjectInput.setAttribute('id', 'input-field');
-	addProjectInput.setAttribute('name', 'input-field');
+	addProjectInput.setAttribute('id', 'project-name');
+	addProjectInput.setAttribute('name', 'project-name');
 
 	const inputLabelContainer = document.createElement('div');
 	inputLabelContainer.className = 'input-label-container';
@@ -84,13 +84,11 @@ export function dom() {
 	cancelButton.textContent = 'Cancel';
 	cancelButton.setAttribute('type', 'button');
 	cancelButton.className = 'cancel-btn';
-	cancelButton.addEventListener('click', () => {});
 
 	const addButton = document.createElement('button');
 	addButton.textContent = 'Add Project';
 	addButton.setAttribute('type', 'button');
 	addButton.className = 'add-btn';
-	addButton.addEventListener('click', () => {});
 
 	const projectFormBtnContainer = document.createElement('div');
 	projectFormBtnContainer.className = 'project-btn-container';
@@ -99,14 +97,14 @@ export function dom() {
 	projectFormBtnContainer.appendChild(addButton);
 
 	addProjectForm.appendChild(inputLabelContainer);
-	addProjectForm.appendChild(document.createElement('br'));
 	addProjectForm.appendChild(projectFormBtnContainer);
 
 	//Append elements to the ProjectsContainer
 	addProject.appendChild(addProjectIcon);
 	addProject.appendChild(document.createTextNode('Add project'));
+
 	projectsContainer.appendChild(addProjectForm);
-	projectsContainer.appendChild(addProject);
+	// projectsContainer.appendChild(addProject);
 
 	//Append everything to the aside element
 	sidebarContainer.appendChild(allTasks);
@@ -114,6 +112,7 @@ export function dom() {
 	sidebarContainer.appendChild(weekTasks);
 	sidebarContainer.appendChild(projects);
 	sidebarContainer.appendChild(projectsContainer);
+	sidebarContainer.appendChild(addProject);
 	aside.appendChild(sidebarContainer);
 
 	//Create main container
@@ -125,13 +124,12 @@ export function dom() {
 	tasksContainer.className = 'task-container';
 
 	const createTaskBtn = document.createElement('button');
-	createTaskBtn.className = 'add-task-btn';
+	createTaskBtn.className = 'create-task-btn';
 	const addTaskIcon = document.createElement('i');
 	addTaskIcon.className = 'fa-solid fa-plus';
 
 	createTaskBtn.appendChild(addTaskIcon);
 	createTaskBtn.appendChild(document.createTextNode('Create Task'));
-	tasksContainer.appendChild(createTaskBtn);
 
 	//Create a modal
 	const modal = document.createElement('div');
@@ -196,11 +194,13 @@ export function dom() {
 
 	const addBtn = document.createElement('button');
 	addBtn.setAttribute('type', 'submit');
+	addBtn.id = 'add-task-btn';
 	addBtn.innerText = 'Add Task';
 	const cancelBtn = document.createElement('button');
 	cancelBtn.setAttribute('type', 'button');
 	cancelBtn.classList.add('cancel');
 	cancelBtn.innerText = 'Cancel';
+
 	const modalBtnContainer = document.createElement('div');
 	modalBtnContainer.className = 'modal-btn-container';
 	modalBtnContainer.appendChild(cancelBtn);
@@ -223,34 +223,14 @@ export function dom() {
 
 	modal.appendChild(modalContent);
 
-	// Get the add task button and cancel button
-	const addTaskBtn = modal.querySelector("button[type='submit']");
-	const cancelTaskBtn = modal.querySelector('.cancel');
+	const mainContentContainer = document.createElement('div');
+	mainContentContainer.className = 'main-content-container';
 
-	// Show the modal when the add task button is clicked
-	addBtn.addEventListener('click', function (event) {
-		event.preventDefault();
-		modal.style.display = 'block';
-	});
-
-	// Hide the modal when the cancel button or close button is clicked
-	cancelBtn.addEventListener('click', function (event) {
-		modal.style.display = 'none';
-	});
-
-	closeBtn.addEventListener('click', function (event) {
-		modal.style.display = 'none';
-	});
-
-	window.addEventListener('click', function (event) {
-		if (event.target == modal) {
-			modal.style.display = 'none';
-		}
-	});
-
+	mainContentContainer.appendChild(mainHeader);
+	mainContentContainer.appendChild(tasksContainer);
+	mainContentContainer.appendChild(createTaskBtn);
 	//Append elements to main container
-	mainContainer.appendChild(mainHeader);
-	mainContainer.appendChild(tasksContainer);
+	mainContainer.appendChild(mainContentContainer);
 	mainContainer.appendChild(modal);
 
 	//Create footer
